@@ -1,0 +1,107 @@
+<style>
+  /* General Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+
+  /* Navbar Styles */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #17a2b8 !important;
+  }
+
+  .nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #17a2b8 !important;
+  }
+
+  /* Carousel Styles */
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(90%);
+  }
+
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .carousel-caption h1,
+  .carousel-caption p {
+    color: #ffffff;
+  }
+
+  /* Marketing Section Styles */
+  .rounded-circle {
+    border: 3px solid #17a2b8;
+    transition: transform 0.3s ease;
+  }
+
+  .rounded-circle:hover {
+    transform: scale(1.1);
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    color: #17a2b8;
+  }
+
+  .btn-secondary {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+
+  .btn-secondary:hover {
+    background-color: #138496;
+    border-color: #138496;
+  }
+
+  /* Featurette Section Styles */
+  .featurette-heading {
+    font-weight: bold;
+    color: #343a40;
+  }
+
+  .featurette-image {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .lead {
+    color: #495057;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+
+  footer a {
+    color: #17a2b8;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  footer p {
+    margin-bottom: 0;
+  }
+</style>
